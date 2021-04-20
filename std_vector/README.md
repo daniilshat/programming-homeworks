@@ -1,5 +1,7 @@
  # How to use it
- Description of the use of the main methods of the class (на самом деле я хотел завернуть все в Doxygen, но у меня не хватило времени, так и появилось это подобие документации).
+ Description of the use of the main methods of the class (на самом деле я хотел завернуть все в Doxygen, но у меня не хватило времени, так и появилось это подобие документации).  
+ ![И так сойдет](https://github.com/daniilshat/programming-homeworks/blob/main/std_vector/sourse/impmeme.jpg)
+
 
 ## Vector initialization
 You can use several ways to initialize a vector:
