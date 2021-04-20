@@ -6,18 +6,17 @@
 #include <Vector.h>
 
 int main() {
-    Vector v {1, 2, 3, 4, 5, 6, 7, 8, 9};
-    v.pushBack(23);
+    Vector v {1, 2, 3, 4, 5};
+    Vector w;
     std::cout << v;
-    v.Insert(2, 666);
+    std::cout << v.Size() << std::endl;
+    std::cout << v.Capacity() << std::endl;
+    v.pushBack(3);
     std::cout << v;
-    v.Insert(2, 666);
+    v.popBack();
     std::cout << v;
-    v.Insert(2, 666);
-    std::cout << v;
-
-
-
+    w = v;
+    std::cout << w;
 
     return 0;
 }
