@@ -6,14 +6,18 @@
 #include <Vector.h>
 
 int main() {
-    Vector v1(11, 5);
-    std::cout << v1 << std::endl;
+    Vector v {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    v.pushBack(23);
+    std::cout << v;
+    v.Insert(2, 666);
+    std::cout << v;
+    v.Insert(2, 666);
+    std::cout << v;
+    v.Insert(2, 666);
+    std::cout << v;
 
-    v1.pushBack(99);
-    std::cout << v1 << std::endl;
 
-    v1.pushBack(192);
-    std::cout << v1 << std::endl;
+
 
     return 0;
 }
